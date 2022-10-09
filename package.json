@@ -1,6 +1,6 @@
 {
   "name": "example-vue-npm-package",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "private": false,
   "main": "dist/example-vue-npm-package.ssr.js",
   "browser": "dist/example-vue-npm-package.esm.js",
@@ -12,6 +12,10 @@
     "build": "cross-env NODE_ENV=production rollup --config rollup.config.js",
     "prepublish": "npm run build",
     "localpublish": "npm pack & mkdirp ./local-packages & move *.tgz ./local-packages/example-vue-npm-package_local.tgz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesc601/example-vue-npm-package.git"
   },
   "dependencies": {
     "core-js": "^3.8.3",
