@@ -1,6 +1,6 @@
 {
   "name": "example-vue-npm-package",
-  "version": "0.1.9",
+  "version": "0.1.14",
   "private": false,
   "main": "dist/example-vue-npm-package.ssr.js",
   "browser": "dist/example-vue-npm-package.esm.js",
