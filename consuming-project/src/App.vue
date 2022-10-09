@@ -1,5 +1,7 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <ExampleComponent value="This is overridden text" />
+  </div>
 </template>
 
 <script lang="ts">
@@ -8,7 +10,7 @@ import { ExampleComponent } from 'example-vue-npm-package';
 
 export default Vue.extend({
   name: 'App',
-  components: {},
+  components: { ExampleComponent },
 });
 </script>
 

@@ -1,11 +1,16 @@
 <template>
-  <p id="para">This is an example vue component</p>
+  <p id="para">{{ value }}</p>
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue';
+
+export default Vue.extend({
+  props: {
+    value: { type: String, default: 'This is the default text' },
+  },
   name: 'ExampleComponent',
-};
+});
 </script>
 
 <style scoped>
