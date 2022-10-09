@@ -6,3 +6,4 @@ rollup.config.js
 tsconfig.json
 vue.config.js
 consuming-project
+local-packages
