@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import { ExampleComponent } from 'example-vue-npm-package';
+import { ExampleComponent } from '@jamescoates/example-vue-npm-package';
 import { ExampleComponent as ExampleLocalComponent } from 'local-package';
 
 export default Vue.extend({

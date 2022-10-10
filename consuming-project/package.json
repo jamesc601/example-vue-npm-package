@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "example-vue-npm-package": "^0.1.19",
-    "local-package": "file:../local-packages/example-ts-npm-package_local.tgz",
+    "@jamescoates/example-vue-npm-package": "^0.1.20",
+    "local-package": "file:../local-packages/example-vue-npm-package_local.tgz",
     "vue": "^2.6.14"
   },
   "devDependencies": {
